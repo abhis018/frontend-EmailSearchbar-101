@@ -1,0 +1,43 @@
+body {
+    background-image: url(file:///C:/Users/abhis/OneDrive/Desktop/base-apparel-coming-soon-master/images/bg-pattern-desktop.svg);
+}
+.row {
+    display: flex;
+}
+
+.column1 {
+    flex: 70%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align:left;
+    margin-left: 150px;
+}
+
+.column2 {
+    flex: 30%;
+    padding-bottom: 12px;
+}
+
+p {
+    font-size: 70px;
+}
+
+label {
+    display: flex;
+    justify-content: left;
+}
+
+input[type="email"] {
+    width: 350px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: thin;
+}
+
+input[type="image"] {
+    width: 50px;
+}
+
+input[type="email"]::placeholder {
+    padding-left: 20px;
+}
