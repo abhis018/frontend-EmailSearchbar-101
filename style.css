@@ -1,5 +1,6 @@
 body {
     background-image: url(file:///C:/Users/abhis/OneDrive/Desktop/base-apparel-coming-soon-master/images/bg-pattern-desktop.svg);
+    overflow: hidden;
 }
 .row {
     display: flex;
@@ -7,7 +8,6 @@ body {
 
 .column1 {
     flex: 70%;
-    padding-right: 20px;
     padding-bottom: 20px;
     text-align:left;
     margin-left: 150px;
@@ -15,11 +15,15 @@ body {
 
 .column2 {
     flex: 30%;
-    padding-bottom: 12px;
 }
 
 p {
-    font-size: 70px;
+    font-size: 65px;
+    margin-bottom: 15px;
+}
+
+form {
+    margin-top: 15px;
 }
 
 label {
